@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="tab_text_nor">#FFFFFF</color>
+    <color name="tab_text_sel">#FF4081</color>
+
+    <color name="edittext_font">#FFFFFF</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="list_background">#FFFFFF</color>
+
+    <color name="view_divide">#dee2e6</color>
+
+    <color name="item_pressed">#1A000000</color>
+</resources>

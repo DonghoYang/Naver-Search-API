@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="topbar_height">75dp</dimen>
+    <dimen name="tabbar_height">45dp</dimen>
+    <dimen name="tabbar_divide_height">35dp</dimen>
+    <dimen name="tabbar_width">45dp</dimen>
+    <dimen name="edittext_height">60dp</dimen>
+    <dimen name="edittext_margin">15dp</dimen>
+    <dimen name="edittext_font">20sp</dimen>
+
+    <!-- image detail -->
+    <dimen name="arrow_icon_width">40dp</dimen>
+    <dimen name="arrow_icon_height">40dp</dimen>
+    <dimen name="arrow_icon_margin">30dp</dimen>
+
+    <!-- search image item-->
+    <dimen name="search_image_item_height">100dp</dimen>
+    <dimen name="search_image_layout_margin">5dp</dimen>
+    <dimen name="search_image_padding">10dp</dimen>
+    <dimen name="search_image_title">12sp</dimen>
+
+    <!-- search web item -->
+    <dimen name="search_web_layout_margin">5dp</dimen>
+    <dimen name="search_web_padding">10dp</dimen>
+    <dimen name="search_web_title">15sp</dimen>
+    <dimen name="search_web_link">12sp</dimen>
+    <dimen name="search_web_description">12sp</dimen>
+</resources>

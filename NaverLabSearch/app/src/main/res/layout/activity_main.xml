@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/topbar_height"
+        android:background="@color/colorPrimary"
+        android:gravity="center_vertical">
+
+        <com.success.dongho.naverlabsearch.ui.layout.widget.SearchEditText
+            android:id="@+id/search_edit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edittext_height"
+            android:layout_marginLeft="@dimen/edittext_margin"
+            android:layout_marginRight="@dimen/edittext_margin"
+            android:hint="@string/search_input_hint"
+            android:imeOptions="flagNoExtractUi|actionSearch"
+            android:inputType="text"
+            android:lines="1"
+            android:textColor="@color/edittext_font"
+            android:textSize="@dimen/edittext_font"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/view_divide"/>
+
+    <FrameLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/main_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:id="@+id/horizontal_tab"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tabbar_height"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/btn_left"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/title_web"
+                android:textColor="@color/tab_text_nor"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="@dimen/tabbar_divide_height"
+                android:layout_gravity="center_vertical"
+                android:background="@color/view_divide"/>
+
+            <TextView
+                android:id="@+id/btn_right"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/title_image"
+                android:textColor="@color/tab_text_nor"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/vertical_tab"
+            android:layout_width="@dimen/tabbar_width"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/btn_up"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/title_web"
+                android:textColor="@color/tab_text_nor"/>
+
+            <View
+                android:layout_width="@dimen/tabbar_divide_height"
+                android:layout_height="1dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/view_divide"/>
+
+            <TextView
+                android:id="@+id/btn_down"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/title_image"
+                android:textColor="@color/tab_text_nor"/>
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

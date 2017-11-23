@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NaverLabSearch</string>
+    <string name="title_web">Web Search</string>
+    <string name="title_image">Image Search</string>
+
+    <string name="title_detial_activity">DetialView</string>
+    <string name="input_warring">검색어를 입력해 주세요.</string>
+    <string name="search_warring">검색 결과가 없습니다.</string>
+    <string name="search_input_hint">검색어를 입력해 주세요.</string>
+
+    <!-- error string -->
+    <string name="authentication_failed">인증에 실패했습니다.</string>
+    <string name="incorrect_query_request">잘못된 쿼리요청입니다.</string>
+    <string name="invalid_display_value">부적절한 display 값입니다.</string>
+    <string name="invalid_start_value">부적절한 start 값입니다.</string>
+    <string name="invalid_sort_value">부적절한 sort 값입니다.</string>
+    <string name="malformed_encoding">잘못된 형식의 인코딩입니다.</string>
+    <string name="invalid_search_api">존재하지 않는 검색 api 입니다.</string>
+    <string name="system_error">시스템 에러.</string>
+
+</resources>
